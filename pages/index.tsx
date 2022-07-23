@@ -4,10 +4,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-    </>
-  );
+  return <></>;
 };
 
 export default Home;

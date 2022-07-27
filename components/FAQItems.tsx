@@ -1,6 +1,5 @@
 import React, {useRef, useState, useEffect} from 'react'
 import { AccordionData } from './Types'
-import Chevron from './Chevron'
 
 function FAQItems({data, isOpen, btnOnClick}: {data: AccordionData, isOpen: boolean, btnOnClick: () => void}) {
 

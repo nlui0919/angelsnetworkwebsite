@@ -64,7 +64,7 @@ export default function Faq({items} : {items: Array<AccordionData>}) {
   };
 
   return (
-    <ul className="accordion list-none m-0 p-0">
+    <ul className="accordion list-none m-0 p-16">
       {
         items.map((item, idx) => (
           <FAQItems key={idx} data={item} isOpen={idx === currentIdx} btnOnClick={() => btnOnClick(idx)} />

@@ -3,6 +3,8 @@ import type { NextPage } from "next";
 import Box from "../components/Box";
 import FAQ from "../components/FAQ";
 import FAQItems from "../components/FAQItems";
+import Events from "../components/Events";
+
 
 const Home: NextPage = () => {
   const [count, setCount] = useState(0);
@@ -54,6 +56,7 @@ const Home: NextPage = () => {
   ];
 
   return <>
+    <Events></Events>
     <FAQ items={accordionItems}/>
   </>;
 };

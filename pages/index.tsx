@@ -4,6 +4,8 @@ import Box from "../components/Box";
 import FAQ from "../components/FAQ";
 import Title from "../components/Title";
 import FAQItems from "../components/FAQItems";
+import Events from "../components/Events";
+
 
 const Home: NextPage = () => {
 
@@ -59,6 +61,7 @@ const Home: NextPage = () => {
 
   return <>
     <Title></Title>
+    <Events></Events>
     <FAQ items={accordionItems}/>
   </>;
 };

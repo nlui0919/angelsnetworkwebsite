@@ -2,9 +2,13 @@ import { useState } from "react";
 import type { NextPage } from "next";
 import Box from "../components/Box";
 import FAQ from "../components/FAQ";
+import Title from "../components/Title";
 import FAQItems from "../components/FAQItems";
 
 const Home: NextPage = () => {
+
+  
+
   const [count, setCount] = useState(0);
   const accordionItems = [
     {
@@ -54,6 +58,7 @@ const Home: NextPage = () => {
   ];
 
   return <>
+    <Title></Title>
     <FAQ items={accordionItems}/>
   </>;
 };

@@ -17,9 +17,9 @@ function FAQItems({data, isOpen, btnOnClick}: {data: AccordionData, isOpen: bool
     }, [isOpen]);
 
   return (
-    <li className="accordion-item border-2 border-pink-300">
+    <li className="accordion-item border-2 my-2 mx-0 border-pink-300 rounded-lg">
         <h2 className="accordion-item-title m-0 w-full first:border-top last:border-bottom">
-            <button className="p-5 accordion-item-btn w-full flex bg-pink-200 items-center px-4 text-lg font-medium select-none after:content-none after:w-4 after:h-4 after:mx-auto after:transition-transform after:ease-in-out" onClick={btnOnClick}>
+            <button className="p-5 accordion-item-btn w-full flex bg-pink-200 hover:bg-pink-300 duration-300 items-center px-4 text-lg font-medium select-none after:content-none after:w-4 after:h-4 after:mx-auto after:transition-transform after:ease-in-out " onClick={btnOnClick}>
                 {data.title}
             </button>
         </h2>

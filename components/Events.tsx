@@ -4,7 +4,7 @@ import BCA from '../public/BCA.jpg'
 
 export default function Events() {
   return (
-    <div className="bg-[#f5eddd] px-0 pb-16 w-full overflow-hidden">
+    <section id="events" className="bg-[#f5eddd] px-0 pb-16 w-full overflow-hidden">
     
         <h2 className="text-center text-8xl text-gray-800 font-bold mt-6"> Events </h2>
 
@@ -16,18 +16,17 @@ export default function Events() {
             </div>
             <div className="xl:ml-0 xl:pt-0 pt-6 pr-6 pl-6">
               <div className="mx-auto w-fit from-pink-300 xl:p-6 p-4 via-red-300 to-purple-400 rounded-3xl bg-gradient-to-br">
-                <Image src={BCA} className="rounded-2xl h-full" objectFit='cover'></Image>  
+                <Image src={BCA} className="rounded-2xl h-full" width={640} objectFit='cover'></Image>  
               </div>
             </div>
           {/* </div> */}
         </div>  
 
-
         <div className= "xl:flex-row flex flex-col-reverse justify-center xl:pt-16 pt-6"> {/** each event */}
           {/* <div className = "xl:flex-row flex-col justify-center"> */}
             <div className="xl:ml-0 xl:pt-0 pt-6 pr-6 pl-6">
-              <div className="mx-auto w-fit from-red-300 xl:p-6 p-4 via-purple-400 to-pink-300 rounded-3xl bg-gradient-to-br">
-                <Image src={BCA} className="rounded-2xl h-full" objectFit='cover'></Image>  
+              <div className="mx-auto w-fit p-4 xl:p-6 from-red-300  via-purple-400 to-pink-300 rounded-3xl bg-gradient-to-br">
+                <Image src="/November.jpg" className="rounded-2xl h-full" width={640} height={481} objectFit='cover'></Image>  
               </div>
             </div>
             <div className="px-6 xl:w-3/12 flex flex-col xl:gap-y-3 gap-y-6"> 
@@ -45,7 +44,7 @@ export default function Events() {
             </div>
             <div className="xl:ml-0 xl:pt-0 pt-6 pr-6 pl-6">
               <div className="mx-auto w-fit from-pink-300 xl:p-6 p-4 via-red-300 to-purple-400 rounded-3xl bg-gradient-to-br">
-                <Image src={BCA} className="rounded-2xl h-full" objectFit='cover'></Image>  
+                <Image src={BCA} className="rounded-2xl h-full" width={640} objectFit='cover'></Image>  
               </div>
             </div>
           {/* </div> */}
@@ -55,6 +54,6 @@ export default function Events() {
 
         
     
-    </div>
+    </section>
   )
 }

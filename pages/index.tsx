@@ -17,8 +17,7 @@ const Home: NextPage = () => {
     {
       title: "When does Angel’s Network meet?",
       content: (
-        <div> We host a service event each month, although we do not have weekly general meetings. 
-        </div>
+        <div> We host a service event each month, although we do not have weekly general meetings. </div>
       )
     },
     {
